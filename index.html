@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript_Quiz</title>
+    <link rel="stylesheet" href="./Assets/style/style.css">
+</head>
+<body>
+    <nav class = "navBar">
+        <ul>
+            <li id = highScore><a href="./highscore.html" style="font-size: 20px;">View Highscore</a></li>
+            <li id = timer> Time: 0</li>
+        </ul>
+    </nav>
+    <section class = "container">
+        <h1 id=quizHeader>Coding Quiz Challenge</h1>
+        <p id =quizTip> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <p id = question></p>
+        <section id = options></section>
+        <button id = startQuizButton>Start Quiz</button>
+        <section id = displayScore></section>
+        <section id = submitData></section>
+        <section id = displayResult></section>
+        <ol id="highScoreList"></ol>
+    </section>
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
